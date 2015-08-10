@@ -19,7 +19,7 @@
 ![search-results]
 
 [new-session]: ./wireframes/new_session_page.png
-[root-page]: ./wireframes/root-page.png
+[root-page]: ./wireframes/root_page.png
 [tournaments-index]: ./wireframes/tournaments_index.png
 [tournament-show]: ./wireframes/tournament_show.png
 [tournament-form]: ./wireframes/tournament_form.png
