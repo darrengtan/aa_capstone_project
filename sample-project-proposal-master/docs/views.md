@@ -3,8 +3,8 @@
 ## New Session
 ![new-session]
 
-## Feed Show (landing page)
-![feed-show]
+## Front Page (landing page)
+![root-page]
 
 ## Blog Show
 ![blog-show]

@@ -2,7 +2,7 @@
 
 [Heroku link][heroku]
 
-[heroku]: http://flux-capacitr.herokuapp.com
+[heroku]: https://the-tourneys-journey.herokuapp.com/
 
 ## Minimum Viable Product
 The Tourney's Journey is a clone of Challonge built on Rails and Backbone. Users can:
@@ -16,7 +16,7 @@ The Tourney's Journey is a clone of Challonge built on Rails and Backbone. Users
 - [ ] View and comment on tournaments
 - [ ] Follow tournaments
 - [ ] View a feed of followed tournaments
-- [ ] Tag blog posts
+- [ ] Tag tournaments
 - [ ] Search for tournaments by title
 - [ ] Search for tournaments by tag
 
@@ -38,7 +38,7 @@ works before moving on to phase 2.
 
 [Details][phase-one]
 
-### Phase 2: Viewing Blogs and Posts (~2 days)
+### Phase 2: View Tournament Brackets (~2 days)
 I will add API routes to serve blog and post data as JSON, then add Backbone
 models and collections that fetch data from those routes. By the end of this
 phase, users will be able to create blogs and view both blogs and posts, all
@@ -46,7 +46,7 @@ inside a single Backbone app.
 
 [Details][phase-two]
 
-### Phase 3: Editing and Displaying Posts (~2 days)
+### Phase 3: Follow Tournaments and View Tournament Feeds (~2 days)
 I plan to use third-party libraries to add functionality to the `PostForm` and
 `PostShow` views in this phase. First I'll need to add a Markdown editor to the
 `PostForm`, and make sure that the Markdown is properly escaped and formatted in
