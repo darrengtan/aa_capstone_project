@@ -29,56 +29,63 @@ The Tourney's Journey is a clone of Challonge built on Rails and Backbone. Users
 
 ## Implementation Timeline
 
-### Phase 1: User Authentication, Tournament Form Creation (~1 day)
+### Phase 1: User Authentication, Tournament Form Creation (~1-2 days)
 I will implement user authentication in Rails based on the practices learned at
 App Academy. By the end of this phase, users will be able to fill out a form
-containing necessary information to start a tournament. The most important part
-of this phase will be pushing the app to Heroku and ensuring that everything
-works before moving on to phase 2.
+containing necessary information to start a tournament. I will add API routes
+to serve tournament data as JSON, then add Backbone models and collections that
+fetch data from those routes. The most important part of this phase will be
+pushing the app to Heroku and ensuring that everything works before moving on
+to phase 2.
 
 [Details][phase-one]
 
-### Phase 2: View Tournament Brackets (~2 days)
-I will add API routes to serve blog and post data as JSON, then add Backbone
-models and collections that fetch data from those routes. By the end of this
-phase, users will be able to create blogs and view both blogs and posts, all
-inside a single Backbone app.
+### Phase 2: Generate Tournament Brackets (~2 days)
+I will use third-party libraries to generate tournament brackets from a list of
+participating teams. Possible candidates for this are the Tournament gem,
+bracket_tree gem, and Bracket jQuery plugin. I will need to make sure that the
+team names are properly escaped to prevent malicious injections. I will also
+ensure the brackets are properly formatted before I move on to the next phase.
 
 [Details][phase-two]
 
-### Phase 3: Follow Tournaments and View Tournament Feeds (~2 days)
-I plan to use third-party libraries to add functionality to the `PostForm` and
-`PostShow` views in this phase. First I'll need to add a Markdown editor to the
-`PostForm`, and make sure that the Markdown is properly escaped and formatted in
-the `PostShow` view. I also plan to integrate Filepicker for file upload so
-users can add images to blog posts.
+### Phase 3: Tournaments Index (~1-2 days)
+First, I will allow users to follow a tournament through a followings joins
+table on the Rails side that can be shown as JSON data. Then, I will add a
+"feed" route that will generate a list of the current user's created tournaments
+and followed tournaments through the proper associations on the Rails side. On
+the Backbone end, I will create a FeedsIndex view of the current user's created
+and followed tournaments. Ultimately, this will be the page users see after
+logging in. I will also give them the option to view either of the two lists in
+the sidebar.
 
 [Details][phase-three]
 
-### Phase 4: User Feeds (~1-2 days)
-I'll start by adding a `feed` route that uses the `current_user`'s
-`subscribed_blogs` association to serve a list of blog posts ordered
-chronologically. On the Backbone side, I'll make a `FeedShow` view whose `posts`
-collection fetches from the new route.  Ultimately, this will be the page users
-see after logging in.
+### Phase 4: Updating Tournaments (~2 days)
+Using the gems and jQuery plugins from Phase 2, I will figure out how to create
+a friendly interface for users to update the tournament standings. The current
+plan is to have a pop-up screen after the tournament's author clicks a specific
+matchup that allows the author to say who won the match and the score. Ideally,
+they will be able to add sets to the score in case the game being played
+requires multiple sets.
 
 [Details][phase-four]
 
 ### Phase 5: Searching for Blogs and Posts (~2 days)
-I'll need to add `search` routes to both the Blogs and Posts controllers. On the
-Backbone side, there will be a `SearchResults` composite view has `BlogsIndex`
-and `PostsIndex` subviews. These views will use plain old `blogs` and `posts`
-collections, but they will fetch from the new `search` routes.
+I'll need to add "search" routes to the Tournaments controller. On the
+Backbone side, there will be a `SearchResults` composite view has
+"TournamentsIndex" and `TournamentSummary` subviews. These views will use plain
+old "tournaments" collections, but they will fetch from the new "search" routes.
 
 [Details][phase-five]
 
 ### Bonus Features (TBD)
-- [ ] "Like" button and counter for posts
-- [ ] Custom blog urls
+- [ ] Group stage implementation for tournaments
+- [ ] Custom tournament urls
 - [ ] Pagination/infinite scroll
-- [ ] Activity history (e.g. likes, reblogs, taggings)
-- [ ] Post types (image posts, quote posts, etc)
-- [ ] Reblogging
+- [ ] Tournament history
+- [ ] Registration for tournaments
+- [ ] Share tournaments
 - [ ] Multiple sessions/session management
 - [ ] User avatars
 - [ ] Typeahead search bar
