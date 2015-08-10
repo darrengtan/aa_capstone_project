@@ -6,21 +6,21 @@
 ## Front Page (landing page)
 ![root-page]
 
-## Blog Show
-![blog-show]
+## Tournaments Index
+![tournaments-index]
 
-## Post Show
-![post-show]
+## Tournament Show
+![tournament-show]
 
-## Post Form
-![post-form]
+## Tournament Form
+![tournament-form]
 
 ## Search Results
 ![search-results]
 
 [new-session]: ./wireframes/new_session.png
 [root-page]: ./wireframes/root-page.png
-[blog-show]: ./wireframes/blog_show.png
-[post-show]: ./wireframes/post_show.png
-[post-form]: ./wireframes/post_form.png
+[tournaments-index]: ./wireframes/tournaments_index.png
+[tournament-show]: ./wireframes/tournament_show.png
+[tournament-form]: ./wireframes/tournament_form.png
 [search-results]: ./wireframes/search_results.png
