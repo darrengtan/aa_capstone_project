@@ -18,9 +18,9 @@
 ## Search Results
 ![search-results]
 
-[new-session]: ./wireframes/new_session.png
+[new-session]: ./wireframes/new_session_page.png
 [root-page]: ./wireframes/root-page.png
 [tournaments-index]: ./wireframes/tournaments_index.png
 [tournament-show]: ./wireframes/tournament_show.png
 [tournament-form]: ./wireframes/tournament_form.png
-[search-results]: ./wireframes/search_results.png
+[search-results]: ./wireframes/search_results_page.png
