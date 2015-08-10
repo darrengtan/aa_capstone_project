@@ -52,7 +52,7 @@ ensure the brackets are properly formatted before I move on to the next phase.
 ### Phase 3: Tournaments Index (~1-2 days)
 First, I will allow users to follow a tournament through a followings joins
 table on the Rails side that can be shown as JSON data. Then, I will add a
-"feed" route that will generate a list of the current user's created tournaments
+`feed` route that will generate a list of the current user's created tournaments
 and followed tournaments through the proper associations on the Rails side. On
 the Backbone end, I will create a FeedsIndex view of the current user's created
 and followed tournaments. Ultimately, this will be the page users see after
@@ -72,10 +72,10 @@ requires multiple sets.
 [Details][phase-four]
 
 ### Phase 5: Searching for Blogs and Posts (~2 days)
-I'll need to add "search" routes to the Tournaments controller. On the
+I'll need to add `search` routes to the Tournaments controller. On the
 Backbone side, there will be a `SearchResults` composite view has
-"TournamentsIndex" and `TournamentSummary` subviews. These views will use plain
-old "tournaments" collections, but they will fetch from the new "search" routes.
+`TournamentsIndex` and `TournamentSummary` subviews. These views will use plain
+old `tournaments` collections, but they will fetch from the new `search` routes.
 
 [Details][phase-five]
 
