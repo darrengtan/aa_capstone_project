@@ -4,8 +4,7 @@
 ### Models
 
 ### Controllers
-Api::BlogsController (search)
-Api::PostsController (search)
+* Api::TournamentsController (search)
 
 ### Views
 
@@ -15,8 +14,9 @@ Api::PostsController (search)
 ### Collections
 
 ### Views
-* BlogSearchItem
-* SearchShow (composite view, contains BlogsIndex and PostsIndex subviews)
+* TournamentSearchItem
+* TournamentSummary
+* TournamentSearchIndex (composite view, contains TournamentSearchItem and
+  TournamentSummary subviews)
 
 ## Gems/Libraries
-

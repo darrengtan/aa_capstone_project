@@ -33,10 +33,10 @@ The Tourney's Journey is a clone of Challonge built on Rails and Backbone. Users
 I will implement user authentication in Rails based on the practices learned at
 App Academy. By the end of this phase, users will be able to fill out a form
 containing necessary information to start a tournament. I will add API routes
-to serve tournament data as JSON, then add Backbone models and collections that
-fetch data from those routes. The most important part of this phase will be
-pushing the app to Heroku and ensuring that everything works before moving on
-to phase 2.
+to serve tournament and team data as JSON, then add Backbone models and
+collections that fetch data from those routes. The most important part of this
+phase will be pushing the app to Heroku and ensuring that everything works
+before moving on to phase 2.
 
 [Details][phase-one]
 
@@ -49,15 +49,15 @@ ensure the brackets are properly formatted before I move on to the next phase.
 
 [Details][phase-two]
 
-### Phase 3: Tournaments Index (~1-2 days)
+### Phase 3: Tournaments Index (~1 day)
 First, I will allow users to follow a tournament through a followings joins
 table on the Rails side that can be shown as JSON data. Then, I will add a
 `feed` route that will generate a list of the current user's created tournaments
 and followed tournaments through the proper associations on the Rails side. On
-the Backbone end, I will create a FeedsIndex view of the current user's created
-and followed tournaments. Ultimately, this will be the page users see after
-logging in. I will also give them the option to view either of the two lists in
-the sidebar.
+the Backbone end, I will create a `TournamentsIndex` view of the current user's
+created and followed tournaments. Ultimately, this will be the page users see
+after logging in. I will also give them the option to view either of the two
+lists in the sidebar.
 
 [Details][phase-three]
 

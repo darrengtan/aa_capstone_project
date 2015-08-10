@@ -4,26 +4,18 @@
 ### Models
 
 ### Controllers
-Api::BlogsController (create, destroy, index, show)
-Api::PostsController (create, destroy, show, update)
 
 ### Views
-* blogs/show.json.jbuilder
 
 ## Backbone
 ### Models
-* Blog (parses nested `posts` association)
-* Post
 
 ### Collections
-* Blogs
-* Posts
 
 ### Views
-* BlogForm
-* BlogShow (composite view, contains PostsIndex subview)
-* PostsIndex (composite view, contains PostsIndexItem subviews)
-* PostsIndexItem
-* PostShow
+* TournamentShow
 
 ## Gems/Libraries
+* Tournament gem
+* bracket_tree gem
+* Bracket jQuery plugin

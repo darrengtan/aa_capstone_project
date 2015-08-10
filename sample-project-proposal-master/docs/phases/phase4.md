@@ -4,10 +4,8 @@
 ### Models
 
 ### Controllers
-Api::PostsController (feed)
 
 ### Views
-posts/feed.json.jbuilder
 
 ## Backbone
 ### Models
@@ -15,6 +13,8 @@ posts/feed.json.jbuilder
 ### Collections
 
 ### Views
-* FeedShow (composite view, contains PostsIndex subview)
+* TournamentUpdateForm
 
 ## Gems/Libraries
+* Bootstrap
+* gems/libraries from Phase 2

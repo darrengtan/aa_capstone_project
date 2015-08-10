@@ -2,10 +2,12 @@
 
 ## Rails
 ### Models
+* Followings (association for users and tournaments)
 
 ### Controllers
 
 ### Views
+* tournaments/index.json.jbuilder
 
 ## Backbone
 ### Models
@@ -13,9 +15,7 @@
 ### Collections
 
 ### Views
-* PostForm
+* TournamentsIndex
+* CompositeView
 
 ## Gems/Libraries
-* Filepicker
-* Markdown-js
-* Bootstrap Markdown
