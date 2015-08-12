@@ -9,8 +9,8 @@
 ### Controllers
 * UsersController (create, new)
 * SessionsController (create, new, destroy)
-* Api::TournamentsController (create, new, show, update, destroy)
-* Api::TeamsController (create, new, show, update, destroy)
+* Api::TournamentsController (create, index, show, update, destroy)
+* Api::TeamsController (create, new, index, show, update, destroy)
 
 ### Views
 * users/new.html.erb

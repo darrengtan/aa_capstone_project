@@ -22,6 +22,7 @@ column name | data type | details
 id          | integer   | not null, primary key
 owner_id    | integer   | not null, foreign key (references users)
 name        | string    | not null
+description | text      |
 
 ## tournament_teams
 column name    | data type | details
@@ -29,6 +30,13 @@ column name    | data type | details
 id             | integer   | not null, primary key
 tournament_id  | integer   | not null, foreign key (references tournaments)
 team_id        | integer   | not null, foreign key (references teams)
+
+## team_memberships
+column name    | data type | details
+---------------|-----------|-----------------------
+id             | integer   | not null, primary key
+team_id        | integer   | not null, foreign key (references teams)
+user_id        | integer   | not null, foreign key (references users)
 
 ## followings
 column name    | data type | details

@@ -9,8 +9,8 @@ The Tourney's Journey is a clone of Challonge built on Rails and Backbone. Users
 
 <!-- This is a Markdown checklist. Use it to keep track of your progress! -->
 
-- [ ] Create accounts
-- [ ] Create sessions (log in)
+- [x] Create accounts
+- [x] Create sessions (log in)
 - [ ] Fill out a tournament form
 - [ ] Create brackets for a tournament
 - [ ] View and comment on tournaments
