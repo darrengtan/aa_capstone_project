@@ -38,7 +38,7 @@ id             | integer   | not null, primary key
 team_id        | integer   | not null, foreign key (references teams)
 user_id        | integer   | not null, foreign key (references users)
 
-## followings
+## follows
 column name    | data type | details
 ---------------|-----------|-----------------------
 id             | integer   | not null, primary key
