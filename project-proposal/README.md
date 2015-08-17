@@ -2,7 +2,7 @@
 
 [Heroku link][heroku]
 
-[heroku]: https://the-tourneys-journey.herokuapp.com/
+[heroku]: https://tourna-gen.herokuapp.com/
 
 ## Minimum Viable Product
 The Tourney's Journey is a clone of Challonge built on Rails and Backbone. Users can:
