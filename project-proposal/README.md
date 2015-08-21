@@ -17,8 +17,8 @@ The Tourney's Journey is a clone of Challonge built on Rails and Backbone. Users
 - [x] Follow tournaments
 - [x] View a feed of followed tournaments
 - [ ] Tag tournaments
-- [ ] Search for tournaments by title
-- [ ] Search for tournaments by tag
+- [x] Search for tournaments by title
+- [x] Search for teams by name
 
 ## Design Docs
 * [View Wireframes][views]
