@@ -1,4 +1,4 @@
-# The Tourney's Journey
+# TournaGen
 
 [Heroku link][heroku]
 
