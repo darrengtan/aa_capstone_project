@@ -2,12 +2,16 @@
 
 [Heroku link][heroku]
 
+[Website link][tournagen]
+[TournaGen Repo][repo]
+
 [heroku]: https://tourna-gen.herokuapp.com/
+[tournagen]: http://www.tournagen.xyz/
+[repo]: https://github.com/darrengtan/TournaGenhttps://github.com/darrengtan/TournaGen
 
 ## Minimum Viable Product
-The Tourney's Journey is a clone of Challonge built on Rails and Backbone. Users can:
-
-<!-- This is a Markdown checklist. Use it to keep track of your progress! -->
+The Tourney's Journey is a clone loosely based off of Challonge built on Rails
+and Backbone. Users can:
 
 - [x] Create accounts
 - [x] Create sessions (log in)
