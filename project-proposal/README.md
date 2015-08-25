@@ -16,7 +16,7 @@ The Tourney's Journey is a clone of Challonge built on Rails and Backbone. Users
 - [x] Create and join teams
 - [x] Follow tournaments
 - [x] View a feed of followed tournaments
-- [ ] Tag tournaments
+- [x] View a feed of hosted tournaments
 - [x] Search for tournaments by title
 - [x] Search for teams by name
 
@@ -71,7 +71,7 @@ requires multiple sets.
 
 [Details][phase-four]
 
-### Phase 5: Searching for Blogs and Posts (~2 days)
+### Phase 5: Searching for Tournaments and Teams (~2 days)
 I'll need to add `search` routes to the Tournaments controller. On the
 Backbone side, there will be a `SearchResults` composite view has
 `TournamentsIndex` and `TournamentSummary` subviews. These views will use plain
@@ -82,13 +82,13 @@ old `tournaments` collections, but they will fetch from the new `search` routes.
 ### Bonus Features (TBD)
 - [ ] Group stage implementation for tournaments
 - [ ] Custom tournament urls
-- [ ] Pagination/infinite scroll
+- [x] Pagination/infinite scroll
 - [ ] Tournament history
 - [x] Registration for tournaments
 - [ ] Share tournaments
 - [ ] Multiple sessions/session management
-- [ ] User avatars
-- [ ] Typeahead search bar
+- [x] Team logos
+- [x] Typeahead search bar
 
 [phase-one]: ./docs/phases/phase1.md
 [phase-two]: ./docs/phases/phase2.md
